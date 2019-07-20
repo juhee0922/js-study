@@ -1,0 +1,51 @@
+.toggle-svg { width:20px;height:18px;position:absolute; }
+.gnb-svg { width:20px;height:18px;position:absolute;top:16px;right:-5px; }
+.dash-menu-svg { width:16px;height:16px;position:absolute;top:14px; }
+.coin-icon { margin-right: 1.2rem; margin-left: 1.4rem;    display: inline-block; }
+.coin-select svg{ width: 31px; height: 56px;}
+.coin-select .coin-name { color: #49474a; font-size: 20px; line-height: 56px; }
+.coin-select .drop-icon { background-color:#9b59b6;padding:0 16px;border-top-right-radius:4px;border-bottom-right-radius:4px;margin-left:auto;line-height:56px; }
+.coin-select .drop-icon svg { width:16px;height:16px; }
+
+.flag svg { width: 14px; height: 14px; }
+.gift-icon { width: 110px; }
+.pennant-icon { display:inline-flex;align-self:center;vertical-align:middle; }
+.pennant-icon svg { width:24px;height:24px;color:#49474a; }
+.coin-tri { width: 20px; height: 20px; position: absolute;top: -1px; }
+.triarrow-svg { width:15px;height:15px;position:absolute;margin-left:5px; }
+.coinname-svg { width:24px;height:24px;position:absolute;top:18px;left:20px; }
+.tridown-svg { width:14px;height:14px;position:absolute;top:20px;right:2px; }
+.graph-svg { width:140px;height:48px;position:absolute;top:7px;left:20px; }
+.flag-svg { width: 24px; height: 24px;position: absolute;left: 0; top: -2px; }
+.tab-svg { width: 14px; height: 14px;position: absolute; }
+.orders-wrap .tabs li.on svg,
+.trades-wrap .tabs li.on svg { fill: #9b59b6; }
+.wallet-svg { width:23px; height: 23px;margin:30px 15px 0 0; }
+.ref-svg { width:16px;height:16px; }
+
+
+
+/* 푸터 아이콘 */
+.footer-item .fa { background-image: url(../img/fa.png); }
+.footer-item .in { background-image: url(../img/in.png); }
+.footer-item .tw { background-image: url(../img/tw.png); }
+.footer-item .te { background-image: url(../img/te.png); }
+.terms-icon { background-image:url(../img/drop.png);background-repeat:no-repeat;background-size:11px 7px;width:20px;height:20px;display:inline-block;background-position:center bottom; }
+.ko { background-image: url(../img/kr.png); }
+.ja { background-image: url(../img/jp.png); }
+.ch { background-image: url(../img/cn.png); }
+.us { background-image: url(../img/us.png); }
+
+
+@media (min-width: 768px) and (max-width: 991px){
+    .gnb-svg { right:-5px; }
+    .tab-svg { left: 5px; }
+}
+
+@media (max-width: 767px) {
+    .gift-icon { width: 70px; }
+    .tab-svg {
+        top: 15px;
+        left: 24px;
+    }
+}

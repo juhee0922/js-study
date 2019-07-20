@@ -1,0 +1,47 @@
+.main { margin:98px 0 260px 0 ; }
+/* 큰 타이틀 */
+.big-tit-wrap { height: 80px;background-color: #27133a; }
+.big-tit-wrap .big-tit { text-align:left;font-size:24px;line-height:80px;font-weight:700; }
+.overall-wrap { margin: 50px 0; }
+
+.trades-wrap { margin-top: 70px; }
+.trades-wrap .tabs { position:relative;display:flex;width:100%;height:50px;font-size:14px; }
+.trades-wrap .tabs li { height:48px;white-space:nowrap;box-sizing:border-box; }
+.trades-wrap .tabs li a { display:block;background:#f7f7f7;margin-right:2px;border-left:1px solid #f7f7f7;border-right:1px solid #f7f7f7;padding:12px 20px;color:#6d6d6d;position:relative; }
+.trades-wrap .tabs li.on a { color:#9b59b6;border-left-color:#dcdcdc;border-right-color:#dcdcdc;background:#fff;border-top:3px solid #9b59b6;box-sizing:border-box; }
+.trades-wrap .tabs .tab-text { padding-left: 25px; }
+.trades-wrap .trades-cont { padding:30px 28px;border:1px solid #dcdcdc;background:#fff;box-shadow:0 5px 12px rgba(0,0,0,.06);box-sizing:border-box;margin-top:-8px; }
+.trades-wrap .trades-tit { margin: 20px 0 10px 0; }
+.trades-wrap .trades-tit span { font-size: 30px;font-weight: 300; }
+
+/* Your Advertisements 탭 내용 */
+.ads-wrap .ads-buy, 
+.ads-wrap .ads-sell { margin: 50px 0; } 
+.ads-wrap .tit { font-size: 20px; color: #49474a; position: relative; padding-left: 35px; }
+.ads-wrap .tit:hover { text-decoration: underline; }
+.ads-wrap .ads-cont { margin: 20px 0;padding-left: 30px; }
+
+.orders-wrap { margin: 70px 0; }
+.orders-wrap .orders-tit a { font-size: 30px;font-weight: 300; }
+.orders-wrap .orders-tit a:hover { text-decoration: underline; }
+.orders-wrap .orders-cont { border:1px solid #dcdcdc;background:#fff;margin:10px 0;text-align:center;border-radius:4px;box-shadow:0 1px 1px rgba(0,0,0,.05); }
+.orders-wrap .orders-cont .orders-text { padding:20px;display:block; }
+.create-box { text-align: right; }
+
+@media (min-width: 1200px){
+}
+
+@media (min-width: 992px) and (max-width: 1199px){
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+    .trades-wrap .tabs .tab-text { padding-left: 3px; }
+    .trades-wrap .tabs li.on a:last-child { width:100.7%; }
+}
+
+@media (max-width: 767px) {
+    .trades-wrap .tabs .tab-text { display: none; }
+    .trades-wrap .trades-cont { margin-top: -4px; }
+    .trades-wrap .tabs li a { padding: 22px 31px; }
+    
+}

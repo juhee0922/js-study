@@ -1,0 +1,72 @@
+.main { margin-top: 98px; }
+/* 큰 타이틀 */
+.big-tit-wrap { height: 80px;background-color: #27133a; }
+.big-tit-wrap .big-tit { text-align:left;font-size:24px;line-height:80px;font-weight:700; }
+
+.wallets-wrap { margin: 50px 0; }
+.estimate-wrap { display:flex;align-items:center;background-color:#41225d;border-radius:4px;padding:40px 30px; }
+.estimate-wrap .estimate-left { width:75%;display:flex;flex-direction:column; }
+.estimate-wrap .estimate-left .est-text-1 { opacity: 0.8;margin-bottom: 10px; }
+.estimate-wrap .estimate-left .est-text-2 { font-weight: bold; }
+
+/* 체크박스 */
+.show-wrap { margin:24px 0;  }
+.show-wrap .show-check {position: relative; }
+.show-wrap .show-check input[type="checkbox"] { display: none }
+.show-wrap .show-check input[type="checkbox"] + label { display: inline-block; width:17px; height: 17px; background: #9b59b6;border-radius: 3px;float: left; cursor: pointer; }
+.show-wrap .show-check input[type="checkbox"]:checked + label { background:url(../img/check.gif) #9b59b6 no-repeat center/10px 10px; float: left; }
+.show-wrap:after{ display:block; clear:both; content:""; }
+.show-wrap .show-text { margin-left : 10px; }
+
+/* 지갑 : left */
+.wallet-box { display: flex;justify-content: space-between; }
+.wallet-box .wallet-left { width: 41.666%;margin-right: 3%; }
+.wallet-box .walleft-head { background-color:#ebecf0;color:#49474a;font-size:20px;line-height:24px;letter-spacing:0;font-weight:400;padding:10px 15px; border-radius: 3px;}
+.wallet-left .item { display: flex;padding: 16px; border-bottom: 1px solid #ebecf0; border-left: 1px solid #ebecf0; border-right: 1px solid #ebecf0; }
+.wallet-box .wallet-left,
+.wallet-left .item:last-child { border-bottom-left-radius: 4px; border-bottom-right-radius: 4px; }
+.wallet-left .item .text-box span { display:block; line-height: 24px; letter-spacing: .32px;margin-bottom: 5px; }
+.wallet-left .item .name { font-weight: 700;  }
+
+/* 지갑 : right */
+.wallet-box .wallet-right { width: 58.333%;}
+.wallet-right .crypto-box { padding: 72px; border: 1px solid #ebecf0;border-bottom-left-radius: 4px; border-bottom-right-radius: 4px; text-align: center; }
+.wallet-right .crypto-tit { margin-bottom: 16px; font-size: 24px; }
+.wallet-right .crypto-sub { margin-bottom: 24px; font-size: 16px; }
+.wallet-right .crypto-sub span { color: #9b59b6; }
+
+@media (min-width: 1200px){
+}
+ 
+@media (min-width: 992px) and (max-width: 1199px){
+    .btn-cryto-sell,
+    .btn-cryto-buy { padding: 11px 57px; }
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+    .estimate-wrap { display: block;padding:24px; }
+    .estimate-wrap .estimate-left { width: 100%; }
+    .wallet-box { display: block; }
+    .wallet-box .wallet-left,
+    .wallet-box .wallet-right { width: 100%;margin-bottom: 20px; }
+    .btn-cryto-sell,
+    .btn-cryto-buy { padding: 11px 93px; }
+    .wallet-right .crypto-box { padding: 24px; }
+}
+
+@media (max-width: 767px) {
+    .estimate-wrap { display: block;padding:24px; }
+    .estimate-wrap .estimate-left { width: 100%; }
+    .wallet-box { display: block; }
+    .wallet-box .wallet-left,
+    .wallet-box .wallet-right { width: 100%;margin-bottom: 20px; }
+    .btn-cryto-sell,
+    .btn-cryto-buy { padding: 11px 109px; }
+    .wallet-right .crypto-box { padding: 24px; }
+    .wallets-wrap {margin-top: 20px }
+}
+
+@media (max-width: 616px) {
+    .btn-cryto-sell,
+    .btn-cryto-buy {padding: 11px 59px;} 
+}

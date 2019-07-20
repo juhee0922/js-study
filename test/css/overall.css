@@ -1,0 +1,45 @@
+.main { margin-top: 98px; }
+/* 큰 타이틀 */
+.big-tit-wrap { height: 80px;background-color: #27133a; }
+.big-tit-wrap .big-tit { text-align:left;font-size:24px;line-height:80px;font-weight:700; }
+.overall-wrap { margin: 50px 0; }
+
+.estimate-wrap { display:flex;align-items:center;background-color:#41225d;border-radius:4px;padding:40px 30px; }
+.estimate-wrap .estimate-left { width:75%;display:flex;flex-direction:column; }
+.estimate-wrap .estimate-left .est-text-1 { opacity: 0.8;margin-bottom: 10px; }
+.estimate-wrap .estimate-left .est-text-2 { font-weight: bold; }
+
+.pending-wrap { margin-top: 30px; }
+.pending-wrap .pending-tit a { font-size: 30px;font-weight: 300; }
+.pending-wrap .pending-tit a:hover { text-decoration: underline; }
+.pending-wrap .pending-cont { margin: 10px 0; }
+
+.ads-wrap .ads-buy, 
+.ads-wrap .ads-sell { margin: 50px 0; } 
+.ads-wrap .tit { font-size: 20px; color: #9b59b6; position: relative; padding-left: 35px; }
+.ads-wrap .tit:hover { text-decoration: underline; }
+.ads-wrap .ads-cont { margin: 20px 0;padding-left: 30px; }
+
+.orders-wrap { margin: 70px 0; }
+.orders-wrap .orders-tit a { font-size: 30px;font-weight: 300; }
+.orders-wrap .orders-tit a:hover { text-decoration: underline; }
+.orders-wrap .orders-cont{ border:1px solid #dcdcdc;background:#fff;margin:10px 0;text-align:center;border-radius:4px;box-shadow:0 1px 1px rgba(0,0,0,.05); }
+.orders-wrap .orders-cont .orders-text{ padding:20px;display:block; }
+
+
+
+@media (min-width: 1200px){
+}
+
+@media (min-width: 992px) and (max-width: 1199px){
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+    .estimate-wrap { display: block;padding:24px; }
+    .estimate-wrap .estimate-left { width: 100%;margin-bottom: 20px;  }
+}
+
+@media (max-width: 767px) {
+    .estimate-wrap { display: block;padding:24px; }
+    .estimate-wrap .estimate-left { width: 100%;margin-bottom: 20px;  }
+}

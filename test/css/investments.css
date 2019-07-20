@@ -1,0 +1,15 @@
+.main { margin: 198px 0;  }
+.inve-wrap .inve-width { width: 83.333%; margin: 0 auto; }
+.inve-wrap .inve-list {
+    border: 1px solid #e8e8e8;
+    border-radius: 6px;
+ }
+ .inve-wrap .inve-tit{
+    padding: 13px 36px;
+    border-bottom: 1px solid #e8e8e8;
+    line-height: 50px;
+    font-size: 20px;
+    font-weight: 700;
+    background-color: #fafafa;
+    color: #655d6a;
+ }

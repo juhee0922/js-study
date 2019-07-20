@@ -1,0 +1,32 @@
+.main { margin:98px 0 260px 0 ; }
+/* 큰 타이틀 */
+.big-tit-wrap { height: 80px;background-color: #27133a; }
+.big-tit-wrap .big-tit { text-align:left;font-size:24px;line-height:80px;font-weight:700; }
+.overall-wrap { margin: 50px 0; }
+
+.orders-wrap { margin-top: 70px; }
+.orders-wrap .tabs { position:relative;display:flex;width:100%;height:50px;font-size:14px; }
+.orders-wrap .tabs li { height:48px;white-space:nowrap;box-sizing:border-box; }
+.orders-wrap .tabs li a { display:block;background:#f7f7f7;margin-right:2px;border-left:1px solid #f7f7f7;border-right:1px solid #f7f7f7;padding:12px 20px;color:#6d6d6d;position:relative; }
+.orders-wrap .tabs li.on a { color:#9b59b6;border-left-color:#dcdcdc;border-right-color:#dcdcdc;background:#fff;border-top:3px solid #9b59b6;box-sizing:border-box; }
+.orders-wrap .tabs .tab-text { padding-left: 25px; }
+.orders-wrap .orders-cont { padding:30px 28px;border:1px solid #dcdcdc;background:#fff;box-shadow:0 5px 12px rgba(0,0,0,.06);box-sizing:border-box;margin-top:-8px; }
+.orders-cont .orders-tit { background:#2f2f2f;line-height:40px;color:#fff;position:relative;border:1px solid #3f3f3f;font-size:16px;text-align:center; }
+.orders-cont .dorers-des { padding:20px;border:1px solid #dcdcdc;text-align:center; }
+
+@media (min-width: 1200px){
+}
+
+@media (min-width: 992px) and (max-width: 1199px){
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+    .orders-wrap .tabs .tab-text { padding-left: 3px; }
+}
+
+@media (max-width: 767px) {
+    .orders-wrap .tabs .tab-text { display: none; }
+    .orders-wrap .orders-cont { margin-top: -4px; }
+    .orders-wrap .tabs li a { padding: 22px 31px; }
+    
+}
